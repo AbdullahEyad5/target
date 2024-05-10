@@ -1,0 +1,24 @@
+C:\Users\abood\Desktop\mavenproject1\src\main\java\com\mycompany\mavenproject1\Book.java
+public class Exam
+{
+    static int studyingHours = 31;
+    private String course = “OOP”;
+    public void compute(int studyingHours)
+    {
+        Exam e = new Exam();
+        this.studyingHours = 24;
+        course = “Math”;
+ 
+        System.out.println("Exam.studyingHours: " + Exam.studyingHours);
+        System.out.println("e.studyingHours: " + e.studyingHours);
+        System.out.println("e.course: " + e.course);
+        System.out.println("course: " + course);
+    }
+ 
+    public static void main(String args[])
+    {
+        Exam e = new Exam();
+        e.compute(31);
+    }
+}
+
